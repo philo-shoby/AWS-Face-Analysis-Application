@@ -1,13 +1,13 @@
-# aws-face-recognition-project
+# AWS-Face-Analysis-Application
 
 This project is made using AWS services and Telegram.
 
 - The photo is send to EC2 service.
 
--The EC2 will upload this photo in S3 service and invokes Amazon Rekognition service.
+- The EC2 will upload this photo in S3 service and invokes Amazon Rekognition service.
 
--The S3 service will send this photo to Rekognition service and it identify the total number of faces.
+- The S3 service will send this photo to Rekognition service and it identify the total number of faces.
 
--The result is send to EC2.
+- The result is send to EC2.
 
 screenshots.docx contains the step by step procedure.
